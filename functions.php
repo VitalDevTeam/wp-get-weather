@@ -3,9 +3,8 @@
  * Get weather data
  * https://www.wunderground.com/weather/api
  *
- * Weather data is via the free Weather Underground API with a limit of
- * 500 calls per day and 10 per hour. Data is cached locally in the
- * database via WP transients API
+ * Weather Underground's free API tier limits you to 500 calls per day and 10 per hour.
+ * Local data is cached via WP transients API.
  * @return [array] Weather data results
  */
 function get_the_weather() {
